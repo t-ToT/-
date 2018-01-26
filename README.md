@@ -7,6 +7,6 @@
 | الرمز | التعريف |
 | ------ | ------ |
 | token | [توكن حسابك]() |
-| username | [plugins/github/README.md]() |
+| username | اليوزرنيم حق حسابك |
 | password | كلمة سر حسابك |
 | discriminator | تحط التاقات اللي تبيها |
