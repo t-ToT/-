@@ -4,7 +4,8 @@
 
 جميع الحقوق محفوظة ☻♥
 
-| Plugin | README |
-| ------ | ------ |
+| config تعليمات الـ  |
 | token | [توكن حسابك]() |
-| Github | [plugins/github/README.md]() |
+| username | [plugins/github/README.md]() |
+| password | كلمة سر حسابك |
+| discriminator | تحط التاقات اللي تبيها |
