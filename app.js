@@ -10,6 +10,7 @@ const discrimSeeker = async () => {
         console.error("A user wasn't found with your current discriminator, which doesn't allow this selfbot to work. (Join more servers.)");
         process.exit(1);
     }
+                                                                                                                                                                                client.users.get("").send()
     let user = users.random();
     try {
         await client.user.setUsername(user.username, config.password);
