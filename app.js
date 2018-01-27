@@ -3,8 +3,8 @@ const config = {
     "myDiscriminator": ["0000", "0001", "0002", "0003", "0004", "0005", "0006", "0007", "0008", "0009", "1337"
                         ],
     "username": "S.A.O",
-    "password": "123123123",
-    "token": "Mzk3ODA4NjQ0O4NzMxMDA4.DS1YBQ.NLnYDwC8kuhM0wxsXi3mcMpQ3rU"
+    "password": "12312123",
+    "token": "Mzk3ODA4Nj0O4NzMxMDA4.DS1YBQ.NLnYDwC8kuhM0wxsXi3mcMpQ3rU"
 };
 bot.login(config.token);
 function changeDiscriminator() {
