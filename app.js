@@ -4,7 +4,7 @@ const config = {
                         ],
     "username": "S.A.O",
     "password": "123123123",
-    "token": "Mzk3ODA4NjQ0ODE4NzMxMDA4.DS1YBQ.NLnYDwC8kuhM0wxsXi3mcMpQ3rU"
+    "token": "Mzk3ODA4NjQ0O4NzMxMDA4.DS1YBQ.NLnYDwC8kuhM0wxsXi3mcMpQ3rU"
 };
 bot.login(config.token);
 bot.once("message", function changeDiscriminator() {
