@@ -9,4 +9,4 @@
 | token | [توكن حسابك]() |
 | username | اليوزرنيم حق حسابك |
 | password | كلمة سر حسابك |
-| discriminator | تحط التاقات اللي تبيها |
+| myDiscriminator | تحط التاقات اللي تبيها |
